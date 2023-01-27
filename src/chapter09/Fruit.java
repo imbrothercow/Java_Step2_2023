@@ -3,6 +3,20 @@ package chapter09;
 public class Fruit {
 
 	private String sort; // 분류
-	private String season; // 과일
+	private String season; // 계절과일
+	
+	//생성자
+	
+	//setter
+	public void set1(String a, String b) {
+		sort = a;
+		season = b;
+	}
+	
+	//getter
+	public void disp1() {
+		System.out.println("분류 : " + sort);
+		System.out.println("계절 : " + season);
+	}
 	
 }
